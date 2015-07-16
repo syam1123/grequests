@@ -8,6 +8,7 @@ func TestAddQueryStringParams(t *testing.T) {
 	if err != nil {
 		t.Error("URL Parse Error: ", err)
 	}
+//oksy let me check it out
 
 	if userURL != "https://www.google.com/?1=2&3=4" {
 		t.Error("URL params not properly built", userURL)
